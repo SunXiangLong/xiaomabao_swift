@@ -120,7 +120,7 @@ class MBFreeStoreViewController: BaseViewController,UITableViewDataSource,UITabl
  //MARK: - pragma mark- 代理UI
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let view = NSBundle.mainBundle().loadNibNamed(String(MBAffordablePlanetHeadView), owner: nil, options: nil).last!as!MBAffordablePlanetHeadView
-        view.frame = CGRectMake(0, 0, UISCREEN_WIDTH, 20)
+        view.frame = CGRectMake(0, 0, UISCREEN_WIDTH, 31)
     
         switch section {
         case 0:    view.lable.text = "麻包推荐"

@@ -23,6 +23,10 @@ class MBAffordablePlanetViewController: BaseViewController,UICollectionViewDeleg
         setCollectionView()
         setdata()
         
+      
+
+        
+        
         
     }
     
@@ -118,7 +122,7 @@ class MBAffordablePlanetViewController: BaseViewController,UICollectionViewDeleg
                 header.addSubview(circleView)
 
                 let view = NSBundle.mainBundle().loadNibNamed(String(MBAffordablePlanetHeadView), owner: nil, options: nil).last!as!MBAffordablePlanetHeadView
-                view.frame = CGRectMake(0, UISCREEN_WIDTH*33/75, UISCREEN_WIDTH, 20)
+                view.frame = CGRectMake(0, UISCREEN_WIDTH*33/75, UISCREEN_WIDTH, 31)
                 view.lable.text = "每日必看"
                 header.addSubview(view)
                 return header
@@ -127,7 +131,7 @@ class MBAffordablePlanetViewController: BaseViewController,UICollectionViewDeleg
                 let header:UICollectionReusableView=collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: "HeaderView2", forIndexPath: indexPath)
                 
                 let view = NSBundle.mainBundle().loadNibNamed(String(MBAffordablePlanetHeadView), owner: nil, options: nil).last!as!MBAffordablePlanetHeadView
-                view.frame = CGRectMake(0, 0, UISCREEN_WIDTH, 20)
+                view.frame = CGRectMake(0, 0, UISCREEN_WIDTH, 31)
                 if indexPath.section==1 {
                     view.lable.text = "全部分类"
                 }else{
@@ -197,7 +201,7 @@ class MBAffordablePlanetViewController: BaseViewController,UICollectionViewDeleg
         if section == 0 {
             return CGSizeMake(UISCREEN_WIDTH, UISCREEN_WIDTH*33/75+20);
         }
-        return CGSizeMake(UISCREEN_WIDTH, 20);
+        return CGSizeMake(UISCREEN_WIDTH, 31);
         
     }
     //    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {

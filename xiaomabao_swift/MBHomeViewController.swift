@@ -23,9 +23,98 @@ class MBHomeViewController: BaseViewController,UIScrollViewDelegate {
         setupTitlesView()
         setupScrollView()
         
+        let arr = twoSum([1,2,3,4,5,5,5], 7)
+        print(arr);
+        let sss = twoSums([1,2,3,4,5,5,5], 7)
+        print(sss)
+ 
+        let ddd = reverseWords("eulb si yks eht")
+        print(ddd)
+        
+    }
+    /**
+     给定一个整型数组中有且仅有两个数字之和等于目标值，求两个数字在数组中的序号 时间复杂度 O(n)
+     */
+    func twoSum(nums: [Int], _ target: Int) -> [Int] {
+        var res = [Int]()
+        var dict = [Int: Int]()
+        
+        for i in 0 ..< nums.count {
+            guard let lastIndex = dict[target - nums[i]] else {
+                dict[nums[i]] = i
+                continue
+            }
+            
+            res.append(lastIndex)
+            res.append(i)
+            break
+        }
+        
+        return res
+    }
+    /**
+     给一个整型数组和一个目标值，判断数组中是否有两个数字之和等于目标值  时间复杂度 O(n)
+     */
+    func twoSums(nums: [Int], _ target: Int) -> Bool {
+        var set = Set<Int>()
+        
+        for num in nums {
+            if set.contains(target - num) {
+                return true
+            }
+            
+            set.insert(num)
+        }
+        
+        return false
+    }
+    /**
+     字符串 根据单词反转
+     
+    每个单词作为一个字符串单独翻转，"eulb si yks eht" -> "blue is sky the"
+     */
+    func reverseWords(s:String) -> String {
+       var char  =  [Character](s.characters)
+        var start = 0
+        
+        _reverse(&char, 0, char.count-1)
+        for i in 0 ..< char.count {
+            if i == char.count-1||char[i+1] == " " {
+                _reverse(&char, start, i)
+                start = i+2;
+            }
+        }
+     return String(char)
+    }
+    /**
+     字符串反转
+    */
+    private  func _reverse(inout chars:[Character],_ start:Int,_ end:Int){
+        var start = start
+        var end = end
+        while start<end {
+            _swap(&chars, start, end);
+            start += 1
+             end -= 1
+        }
     }
     
+    /**
+     首尾互换
+     */
+    private func _swap(inout chars:[Character],_ p:Int,_ q:Int){
+    
+        let temp  = chars[p]
+        chars[p] = chars[q];
+        chars[q] = temp
+    }
     func setupChildVcs() {
+        
+    
+        let vc = MBTopCargoController()
+        vc.title = "尖儿货"
+        self.addChildViewController(vc)
+        
         let vc1 = MBAffordablePlanetViewController()
         vc1.title = "实惠星球"
         self.addChildViewController(vc1)
@@ -74,8 +163,6 @@ class MBHomeViewController: BaseViewController,UIScrollViewDelegate {
         }
     }
     func setupScrollView() {
-  
-        
         let scrollView = UIScrollView.init(frame: CGRectMake(0, 31+TOP_Y, UISCREEN_WIDTH, UISCREEN_HEIGHT-31-49-TOP_Y))
        scrollView.delegate = self
         scrollView.pagingEnabled = true
@@ -83,10 +170,10 @@ class MBHomeViewController: BaseViewController,UIScrollViewDelegate {
         scrollView.contentSize = CGSizeMake(CGFloat(self.childViewControllers.count)*UISCREEN_WIDTH, 0)
         self.view .addSubview(scrollView)
         self.scrollView = scrollView
-        let willShowChildVc = self.childViewControllers[1];
-        willShowChildVc.view.frame  = scrollView.bounds;
-        willShowChildVc.view.setMl_x(UISCREEN_WIDTH)
-        scrollView.addSubview(willShowChildVc.view)
+//        let willShowChildVc = self.childViewControllers[1];
+//        willShowChildVc.view.frame  = scrollView.bounds;
+//        willShowChildVc.view.setMl_x(UISCREEN_WIDTH)
+//        scrollView.addSubview(willShowChildVc.view)
         
         self.scrollViewDidEndScrollingAnimation(scrollView)
         

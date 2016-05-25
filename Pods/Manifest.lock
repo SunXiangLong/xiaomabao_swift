@@ -5,6 +5,7 @@ PODS:
   - SDWebImage (3.7.5):
     - SDWebImage/Core (= 3.7.5)
   - SDWebImage/Core (3.7.5)
+  - SwiftDate (3.0.8)
   - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
@@ -12,6 +13,7 @@ DEPENDENCIES:
   - IBAnimatable
   - Kingfisher (~> 2.2)
   - SDWebImage (~> 3.7)
+  - SwiftDate
   - SwiftyJSON
 
 SPEC CHECKSUMS:
@@ -19,6 +21,7 @@ SPEC CHECKSUMS:
   IBAnimatable: 41ddf0b307ebec241d5dd510f472c51fb7fe519b
   Kingfisher: 7e8de5b0cf7b5dc8ec559d193029a0859df93ef1
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SwiftDate: 971f8b9394f664f2226b9c3ab64e801a7291c612
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
 COCOAPODS: 0.39.0

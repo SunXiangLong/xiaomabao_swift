@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MBTopCargoController" customModule="xiaomabao_swift" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="qau-7f-yqD" id="CB3-Yj-DWh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="qau-7f-yqD">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wzp-7C-tuf">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="jpw-MO-mhe"/>
+                        <outlet property="delegate" destination="-1" id="kjA-3C-GQX"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="qau-7f-yqD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="NIC-lE-PzG"/>
+                <constraint firstAttribute="trailing" secondItem="qau-7f-yqD" secondAttribute="trailing" id="eew-sR-FId"/>
+                <constraint firstAttribute="bottom" secondItem="qau-7f-yqD" secondAttribute="bottom" id="hsl-3a-aRE"/>
+                <constraint firstItem="qau-7f-yqD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="w3G-tE-dZK"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="121" y="73"/>
+        </view>
+    </objects>
+</document>

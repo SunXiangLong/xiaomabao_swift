@@ -17,6 +17,8 @@
 		941D32DA1CAA1913008FA480 /* BkNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D32D61CAA1913008FA480 /* BkNavigationBarView.swift */; };
 		941D32DB1CAA1913008FA480 /* Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D32D71CAA1913008FA480 /* Public.swift */; };
 		941D32E21CAA1B93008FA480 /* MBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D32E11CAA1B93008FA480 /* MBHomeViewController.swift */; };
+		941E4AD21CCA19E700B3FD58 /* MBTopCargoToCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941E4AD01CCA19E700B3FD58 /* MBTopCargoToCell.swift */; };
+		941E4AD31CCA19E700B3FD58 /* MBTopCargoToCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941E4AD11CCA19E700B3FD58 /* MBTopCargoToCell.xib */; };
 		9428A48A1CB74472002D2A53 /* CirCleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9428A4891CB74472002D2A53 /* CirCleView.swift */; };
 		942F32211CAB7F84001C240B /* MBAffordablePlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942F321F1CAB7F84001C240B /* MBAffordablePlanetViewController.swift */; };
 		942F32221CAB7F84001C240B /* MBAffordablePlanetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942F32201CAB7F84001C240B /* MBAffordablePlanetViewController.xib */; };
@@ -44,6 +46,10 @@
 		942F32641CABD933001C240B /* MBFreeStoreViewOnechildCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942F32621CABD933001C240B /* MBFreeStoreViewOnechildCell.xib */; };
 		942F32671CABDC28001C240B /* MBAffordablePlanetTwoChildOneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942F32651CABDC28001C240B /* MBAffordablePlanetTwoChildOneCell.swift */; };
 		942F32681CABDC28001C240B /* MBAffordablePlanetTwoChildOneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942F32661CABDC28001C240B /* MBAffordablePlanetTwoChildOneCell.xib */; };
+		943A950D1CC7A454001E0579 /* MBTopCargoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943A950B1CC7A454001E0579 /* MBTopCargoController.swift */; };
+		943A950E1CC7A454001E0579 /* MBTopCargoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 943A950C1CC7A454001E0579 /* MBTopCargoController.xib */; };
+		943A95111CC7AA75001E0579 /* MBTopCargoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943A950F1CC7AA75001E0579 /* MBTopCargoCell.swift */; };
+		943A95121CC7AA75001E0579 /* MBTopCargoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 943A95101CC7AA75001E0579 /* MBTopCargoCell.xib */; };
 		94F5E6581CAA1EBB00C17879 /* MBBabyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F5E6571CAA1EBB00C17879 /* MBBabyViewController.swift */; };
 		94F5E65A1CAA205000C17879 /* MBCanulcircleHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F5E6591CAA205000C17879 /* MBCanulcircleHomeViewController.swift */; };
 		94F5E65C1CAA20F800C17879 /* MBMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F5E65B1CAA20F800C17879 /* MBMyViewController.swift */; };
@@ -85,6 +91,8 @@
 		941D32D61CAA1913008FA480 /* BkNavigationBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BkNavigationBarView.swift; sourceTree = "<group>"; };
 		941D32D71CAA1913008FA480 /* Public.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Public.swift; sourceTree = "<group>"; };
 		941D32E11CAA1B93008FA480 /* MBHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBHomeViewController.swift; sourceTree = "<group>"; };
+		941E4AD01CCA19E700B3FD58 /* MBTopCargoToCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBTopCargoToCell.swift; sourceTree = "<group>"; };
+		941E4AD11CCA19E700B3FD58 /* MBTopCargoToCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBTopCargoToCell.xib; sourceTree = "<group>"; };
 		9428A4891CB74472002D2A53 /* CirCleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirCleView.swift; sourceTree = "<group>"; };
 		942F321F1CAB7F84001C240B /* MBAffordablePlanetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBAffordablePlanetViewController.swift; sourceTree = "<group>"; };
 		942F32201CAB7F84001C240B /* MBAffordablePlanetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBAffordablePlanetViewController.xib; sourceTree = "<group>"; };
@@ -112,6 +120,10 @@
 		942F32621CABD933001C240B /* MBFreeStoreViewOnechildCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBFreeStoreViewOnechildCell.xib; sourceTree = "<group>"; };
 		942F32651CABDC28001C240B /* MBAffordablePlanetTwoChildOneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBAffordablePlanetTwoChildOneCell.swift; sourceTree = "<group>"; };
 		942F32661CABDC28001C240B /* MBAffordablePlanetTwoChildOneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBAffordablePlanetTwoChildOneCell.xib; sourceTree = "<group>"; };
+		943A950B1CC7A454001E0579 /* MBTopCargoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBTopCargoController.swift; sourceTree = "<group>"; };
+		943A950C1CC7A454001E0579 /* MBTopCargoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBTopCargoController.xib; sourceTree = "<group>"; };
+		943A950F1CC7AA75001E0579 /* MBTopCargoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBTopCargoCell.swift; sourceTree = "<group>"; };
+		943A95101CC7AA75001E0579 /* MBTopCargoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBTopCargoCell.xib; sourceTree = "<group>"; };
 		94F5E6571CAA1EBB00C17879 /* MBBabyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBBabyViewController.swift; sourceTree = "<group>"; };
 		94F5E6591CAA205000C17879 /* MBCanulcircleHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBCanulcircleHomeViewController.swift; sourceTree = "<group>"; };
 		94F5E65B1CAA20F800C17879 /* MBMyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBMyViewController.swift; sourceTree = "<group>"; };
@@ -272,6 +284,8 @@
 				942F32201CAB7F84001C240B /* MBAffordablePlanetViewController.xib */,
 				942F32231CAB7F9A001C240B /* MBFreeStoreViewController.swift */,
 				942F32241CAB7F9A001C240B /* MBFreeStoreViewController.xib */,
+				943A950B1CC7A454001E0579 /* MBTopCargoController.swift */,
+				943A950C1CC7A454001E0579 /* MBTopCargoController.xib */,
 			);
 			name = VC;
 			sourceTree = "<group>";
@@ -294,6 +308,10 @@
 				942F32501CABCDAC001C240B /* MBFreeStoreViewTwoCell.xib */,
 				942F32591CABD2DC001C240B /* MBFreeStoreViewThreeCell.swift */,
 				942F325A1CABD2DC001C240B /* MBFreeStoreViewThreeCell.xib */,
+				943A950F1CC7AA75001E0579 /* MBTopCargoCell.swift */,
+				943A95101CC7AA75001E0579 /* MBTopCargoCell.xib */,
+				941E4AD01CCA19E700B3FD58 /* MBTopCargoToCell.swift */,
+				941E4AD11CCA19E700B3FD58 /* MBTopCargoToCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -432,6 +450,8 @@
 				942F32521CABCDAC001C240B /* MBFreeStoreViewTwoCell.xib in Resources */,
 				942F32641CABD933001C240B /* MBFreeStoreViewOnechildCell.xib in Resources */,
 				941D32B01CAA0CB7008FA480 /* LaunchScreen.storyboard in Resources */,
+				943A950E1CC7A454001E0579 /* MBTopCargoController.xib in Resources */,
+				941E4AD31CCA19E700B3FD58 /* MBTopCargoToCell.xib in Resources */,
 				942F32431CABB260001C240B /* MBAffordablePlanetHeadView.xib in Resources */,
 				942F324E1CABCD9B001C240B /* MBFreeStoreViewOneCell.xib in Resources */,
 				942F32361CAB9C18001C240B /* MBAffordablePlanetThreeCell.xib in Resources */,
@@ -445,6 +465,7 @@
 				942F325C1CABD2DC001C240B /* MBFreeStoreViewThreeCell.xib in Resources */,
 				941D32AB1CAA0CB7008FA480 /* Main.storyboard in Resources */,
 				942F32681CABDC28001C240B /* MBAffordablePlanetTwoChildOneCell.xib in Resources */,
+				943A95121CC7AA75001E0579 /* MBTopCargoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,8 +539,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				942F32631CABD933001C240B /* MBFreeStoreViewOnechildCell.swift in Sources */,
+				943A950D1CC7A454001E0579 /* MBTopCargoController.swift in Sources */,
 				942F32351CAB9C18001C240B /* MBAffordablePlanetThreeCell.swift in Sources */,
 				94F5E6581CAA1EBB00C17879 /* MBBabyViewController.swift in Sources */,
+				941E4AD21CCA19E700B3FD58 /* MBTopCargoToCell.swift in Sources */,
 				942F325B1CABD2DC001C240B /* MBFreeStoreViewThreeCell.swift in Sources */,
 				942F32411CABB24C001C240B /* MBAffordablePlanetHeadView.swift in Sources */,
 				941D32DA1CAA1913008FA480 /* BkNavigationBarView.swift in Sources */,
@@ -537,6 +560,7 @@
 				942F32311CAB9C01001C240B /* MBAffordablePlanetTwoCell.swift in Sources */,
 				941D32D81CAA1913008FA480 /* BaseViewController.swift in Sources */,
 				942F323E1CABAB5B001C240B /* MBAffordablePlanetThreeChildCell.swift in Sources */,
+				943A95111CC7AA75001E0579 /* MBTopCargoCell.swift in Sources */,
 				94F5E65A1CAA205000C17879 /* MBCanulcircleHomeViewController.swift in Sources */,
 				942F32671CABDC28001C240B /* MBAffordablePlanetTwoChildOneCell.swift in Sources */,
 			);
